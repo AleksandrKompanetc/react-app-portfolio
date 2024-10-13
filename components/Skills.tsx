@@ -1,4 +1,5 @@
 import React from 'react'
+import SkillCard from './Helper/SkillCard'
 
 const Skills = () => {
   return (
@@ -21,7 +22,52 @@ const Skills = () => {
         <div className='col-span-4'>
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-[1rem] items-center'>
             <div>
-              
+              <SkillCard
+                title='React'
+                image='/images/react.svg' 
+                percent='90%' />
+            </div>
+            <div>
+              <SkillCard
+                title='Css'
+                image='/images/css.svg' 
+                percent='97%' />
+            </div>
+            <div>
+              <SkillCard
+                title='JavaScript'
+                image='/images/javascript.svg' 
+                percent='77%' />
+            </div>
+            <div>
+              <SkillCard
+                title='TypeScript'
+                image='/images/ts.svg' 
+                percent='67%' />
+            </div>
+            <div>
+              <SkillCard
+                title='HTML'
+                image='/images/html.svg' 
+                percent='67%' />
+            </div>
+            <div>
+              <SkillCard
+                title='Node JS'
+                image='/images/node.svg' 
+                percent='77%' />
+            </div>
+            <div>
+              <SkillCard
+                title='MongoDB'
+                image='/images/mongo.svg' 
+                percent='65%' />
+            </div>
+            <div>
+              <SkillCard
+                title='Python'
+                image='/images/python.svg' 
+                percent='55%' />
             </div>
           </div>
         </div>
