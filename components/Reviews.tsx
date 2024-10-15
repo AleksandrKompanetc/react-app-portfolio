@@ -1,4 +1,5 @@
 import React from 'react'
+import ReviewSlider from './Helper/ReviewSlider'
 
 const Reviews = () => {
   return (
@@ -10,7 +11,7 @@ const Reviews = () => {
         </h1>
       </div>
       <div className='w-[80%] pt-[3rem] md:pt-[5rem] mx-auto'>
-        
+        <ReviewSlider />
       </div>
     </div>
   )
