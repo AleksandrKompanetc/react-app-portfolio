@@ -44,7 +44,8 @@ const PriceCard = ({plane, save, price, bg}:Props) => {
           <p className='text-[17px] text-white opacity-80'>Mern Website</p>
         </div>
       </div>
-      <button>Get Started</button>
+      <button className='mt-[1.5rem] px-8 py-4 bg-blue-600 text-white block w-[100%] hover:bg-blue-800
+      transition-all duration-300 '>Get Started</button>
     </div>
   )
 }
