@@ -1,4 +1,5 @@
 import AboutMe from '@/components/AboutMe';
+import Blog from '@/components/Blog';
 import Hero from '@/components/Hero';
 import Nav from '@/components/Nav';
 import NavMobile from '@/components/NavMobile';
@@ -26,6 +27,7 @@ const HomePage = () => {
       <Project />
       <Price />
       <Reviews />
+      <Blog />
     </div>
   )
 }
