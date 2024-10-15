@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import ClientReviewCard from './ClientReviewCard';
 
 const responsive = {
   desktop: {
@@ -31,7 +32,31 @@ const ReviewSlider = () => {
     infinite
     itemClass='item'
   >
-
+    <ClientReviewCard 
+      image='/images/men10.jpg'
+      user='Aleksandr Kompanetc'
+      role='Web Developer'
+    />
+    <ClientReviewCard 
+      image='/images/men5.jpg'
+      user='Hange Zoe'
+      role='MERN Developer'
+    />
+    <ClientReviewCard 
+      image='/images/men6.png'
+      user='Anas'
+      role='Fullstack Developer'
+    />
+    <ClientReviewCard 
+      image='/images/men7.png'
+      user='Mikasa'
+      role='React Developer'
+    />
+    <ClientReviewCard 
+      image='/images/men5.jpg'
+      user='Itachi Uchiha'
+      role='React Developer'
+    />
   </Carousel>
 }
 
