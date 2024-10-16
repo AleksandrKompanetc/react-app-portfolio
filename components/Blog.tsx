@@ -12,7 +12,10 @@ const Blog = () => {
       </div>
       <div className='w-[80%] mx-auto pt-[3rem] md:pt-[5rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
       items-center gap-[2rem]'>
-        <div>
+        <div
+          data-aos='zoom-in'
+          data-aos-anchor-placement='top-bottom'
+        >
           <BlogCard 
             title='Fullstack Developer Roadmap'
             comment='4'
@@ -20,7 +23,11 @@ const Blog = () => {
             image='/images/comp4.jpg' 
           />
         </div>
-        <div>
+        <div
+          data-aos='zoom-in'
+          data-aos-anchor-placement='top-bottom'
+          data-aos-delay='200'
+        >
           <BlogCard 
             title='Starting With React JS'
             comment='8'
@@ -28,7 +35,11 @@ const Blog = () => {
             image='/images/comp6.jpg' 
           />
         </div>
-        <div>
+        <div
+          data-aos='zoom-in'
+          data-aos-anchor-placement='top-bottom'
+          data-aos-delay='400'
+        >
           <BlogCard 
             title='Time Management In Tech Job'
             comment='4'
