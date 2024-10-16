@@ -1,4 +1,5 @@
 import React from 'react'
+import BlogCard from './Helper/BlogCard'
 
 const Blog = () => {
   return (
@@ -12,7 +13,28 @@ const Blog = () => {
       <div className='w-[80%] mx-auto pt-[3rem] md:pt-[5rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
       items-center gap-[2rem]'>
         <div>
-          
+          <BlogCard 
+            title='Fullstack Developer Roadmap'
+            comment='4'
+            date='24 January 2024'
+            image='/images/comp4.jpg' 
+          />
+        </div>
+        <div>
+          <BlogCard 
+            title='Starting With React JS'
+            comment='8'
+            date='26 January 2024'
+            image='/images/comp6.jpg' 
+          />
+        </div>
+        <div>
+          <BlogCard 
+            title='Time Management In Tech Job'
+            comment='4'
+            date='29 January 2024'
+            image='/images/comp5.jpg' 
+          />
         </div>
       </div>
     </div>
